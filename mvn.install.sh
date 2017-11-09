@@ -11,11 +11,11 @@ cd chemical-qiniu-resource
 #cd jnwtv-common
 #mvn clean install -Dmaven.test.skip=true
 
-if [ $PROJECT != "" ] ; then
+if [ "$PROJECT" != "" ] ; then
 	cd ../chemical-$PROJECT
-	mvn clean package -Dmaven.test.skip=true
+	mvn clean install -Dmaven.test.skip=true
 else	
 	cd ../chemical-qiniu-resource;
-	mvn clean package -Dmaven.test.skip=true
+	mvn clean install -Dmaven.test.skip=true
 fi
 
