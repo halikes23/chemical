@@ -6,6 +6,8 @@ then
 	exit ;
 fi
 
+cd chemical-qiniu-resource
+
 #cd jnwtv-common
 #mvn clean install -Dmaven.test.skip=true
 

@@ -1,10 +1,10 @@
-package com.codepanders.qiniuresource.qiniu;
+package com.codepandars.qiniuresource.qiniu;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.codepanders.qiniuresource.Auth;
-import com.codepanders.qiniuresource.QiniuSource;
+import com.codepandars.qiniuresource.Auth;
+import com.codepandars.qiniuresource.QiniuSource;
 import com.qiniu.storage.BucketManager;
 import com.qiniu.storage.UploadManager;
 

@@ -1,11 +1,11 @@
-package com.codepanders.qiniuresource.qiniu;
+package com.codepandars.qiniuresource.qiniu;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.codepanders.qiniuresource.Accessor;
-import com.codepanders.qiniuresource.BaseAccessor;
-import com.codepanders.qiniuresource.common.RetCode;
+import com.codepandars.qiniuresource.Accessor;
+import com.codepandars.qiniuresource.BaseAccessor;
+import com.codepandars.qiniuresource.common.RetCode;
 import com.qiniu.common.QiniuException;
 import com.qiniu.http.Response;
 import com.qiniu.storage.BucketManager;

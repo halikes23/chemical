@@ -1,4 +1,4 @@
-package com.codepanders.qiniuresource.common;
+package com.codepandars.qiniuresource.common;
 
 public class RetCode {
 

@@ -1,6 +1,6 @@
-package com.codepanders.qiniuresource;
+package com.codepandars.qiniuresource;
 
-import com.codepanders.qiniuresource.qiniu.QiniuBucket;
+import com.codepandars.qiniuresource.qiniu.QiniuBucket;
 
 public class Cdn {
 

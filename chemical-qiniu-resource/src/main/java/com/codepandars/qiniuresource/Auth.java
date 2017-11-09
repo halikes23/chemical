@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.codepanders.qiniuresource;
+package com.codepandars.qiniuresource;
 
 import com.qiniu.util.Json;
 import com.qiniu.util.StringMap;

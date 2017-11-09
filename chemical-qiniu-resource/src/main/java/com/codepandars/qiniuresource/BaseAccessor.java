@@ -1,4 +1,4 @@
-package com.codepanders.qiniuresource;
+package com.codepandars.qiniuresource;
 
 import java.util.Map;
 import java.util.Set;
