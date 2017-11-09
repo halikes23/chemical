@@ -3,8 +3,8 @@ package com.codepandars.chemical.redis.command;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.fq.common.constant.CommonConstant;
-import com.fq.common.constant.RetCode;
+import com.codepandars.chemical.common.constant.CommonConstant;
+import com.codepandars.chemical.common.constant.RetCode;
 
 public abstract class BaseResponse<T> extends HashMap<String,Object> implements Map<String,Object>{
 

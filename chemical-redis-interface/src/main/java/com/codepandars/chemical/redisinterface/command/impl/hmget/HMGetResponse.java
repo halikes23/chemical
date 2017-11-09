@@ -2,8 +2,8 @@ package com.codepandars.chemical.redisinterface.command.impl.hmget;
 
 import java.util.List;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.BaseResponse;
-import com.fq.common.constant.CommonConstant;
 
 import net.sf.ezmorph.bean.MorphDynaBean;
 

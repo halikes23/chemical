@@ -5,11 +5,11 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.codepandars.chemical.common.constant.RetCode;
+import com.codepandars.chemical.common.exception.JnwtvException;
+import com.codepandars.chemical.common.util.HttpHelper;
 import com.codepandars.chemical.redisinterface.properties.RedisInterfaceProperties;
 import com.codepandars.chemical.redisinterface.redisserver.RedisServerManager;
-import com.fq.common.constant.RetCode;
-import com.fq.common.util.HttpHelper;
-import com.fq.exception.JnwtvException;
 
 /**
  * 基础命令类 

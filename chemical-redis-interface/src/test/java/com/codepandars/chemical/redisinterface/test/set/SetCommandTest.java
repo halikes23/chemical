@@ -6,13 +6,13 @@ import org.apache.commons.lang.StringUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.CommandFactory;
 import com.codepandars.chemical.redisinterface.command.ICommand;
 import com.codepandars.chemical.redisinterface.command.impl.get.GetRequest;
 import com.codepandars.chemical.redisinterface.command.impl.get.GetResponse;
 import com.codepandars.chemical.redisinterface.command.impl.set.SetRequest;
 import com.codepandars.chemical.redisinterface.command.impl.set.SetResponse;
-import com.fq.common.constant.CommonConstant;
 
 public class SetCommandTest {
 	

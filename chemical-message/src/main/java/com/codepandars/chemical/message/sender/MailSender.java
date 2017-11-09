@@ -110,23 +110,6 @@ public class MailSender implements IMessageSender<String[]>{
 		
 	}
 
-	public static void main(String[] args) throws Exception {  
-		IMessageSender<String[]> sender = new MailSender();
-		
-		Method setHost = MailSender.class.getMethod("setHost",String.class) ; 
-		setHost.invoke(sender, "smtp.163.com") ;
-		Method setFrom = MailSender.class.getMethod("setFrom",String.class) ; 
-		setFrom.invoke(sender, "jnwtv_console@163.com") ;
-		Method setTransportProtocol = MailSender.class.getMethod("setTransportProtocol",String.class) ; 
-		setTransportProtocol.invoke(sender, "smtp") ;
-		Method setFromPwd = MailSender.class.getMethod("setFromPwd",String.class) ; 
-		setFromPwd.invoke(sender, "2016jnwtv") ;
-		
-		
-		sender.send("JNWTV控制台，验证码", "3877",new String[]{ "chengzhen000000@163.com","56651743@qq.com" });
-		
-    }  
-	
 	public String getFrom() {
 		return from;
 	}

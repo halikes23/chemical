@@ -8,9 +8,9 @@ import java.util.Map;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.BaseCommand;
 import com.codepandars.chemical.redisinterface.command.ICommand;
-import com.fq.common.constant.CommonConstant;
 
 public class LRangeCommand extends BaseCommand<LRangeRequest,LRangeResponse> implements ICommand{
 

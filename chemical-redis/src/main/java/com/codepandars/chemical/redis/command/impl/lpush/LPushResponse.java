@@ -2,8 +2,8 @@ package com.codepandars.chemical.redis.command.impl.lpush;
 
 import java.util.Map;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redis.command.BaseResponse;
-import com.fq.common.constant.CommonConstant;
 
 public class LPushResponse extends BaseResponse<Long>{
 

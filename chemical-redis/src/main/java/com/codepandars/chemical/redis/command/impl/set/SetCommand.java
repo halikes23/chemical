@@ -9,11 +9,11 @@ import redis.clients.jedis.Response;
 import redis.clients.jedis.Transaction;
 
 import com.alipay.api.internal.util.StringUtils;
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redis.command.BaseCommand;
 import com.codepandars.chemical.redis.command.BaseResponse;
 import com.codepandars.chemical.redis.command.ICommand;
 import com.codepandars.chemical.redis.command.ResponseFactoryContext;
-import com.fq.common.constant.CommonConstant;
 
 @Service
 public class SetCommand  extends BaseCommand implements ICommand<String>{

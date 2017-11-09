@@ -3,8 +3,8 @@ package com.codepandars.chemical.redis.command.impl.smembers;
 import java.util.Map;
 import java.util.Set;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redis.command.BaseResponse;
-import com.fq.common.constant.CommonConstant;
 
 public class SMembersResponse extends BaseResponse<Set<String>>{
 

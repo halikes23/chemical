@@ -5,9 +5,9 @@ import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
 
+import com.codepandars.chemical.common.util.ConfigUtil;
 import com.codepandars.chemical.redisinterface.constant.RedisInterfaceConstant;
 import com.codepandars.chemical.redisinterface.redisserver.RedisServer;
-import com.fq.util.ConfigUtil;
 
 public class RedisInterfaceProperties {
 

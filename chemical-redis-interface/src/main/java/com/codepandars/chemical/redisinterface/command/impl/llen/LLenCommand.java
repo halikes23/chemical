@@ -3,9 +3,9 @@ package com.codepandars.chemical.redisinterface.command.impl.llen;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.BaseCommand;
 import com.codepandars.chemical.redisinterface.command.ICommand;
-import com.fq.common.constant.CommonConstant;
 
 import net.sf.json.JSONObject;
 

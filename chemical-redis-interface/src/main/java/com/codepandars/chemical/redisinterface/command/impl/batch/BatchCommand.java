@@ -3,10 +3,10 @@ package com.codepandars.chemical.redisinterface.command.impl.batch;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.BaseCommand;
 import com.codepandars.chemical.redisinterface.command.ICommand;
 import com.codepandars.chemical.redisinterface.command.ResponseBuilderContext;
-import com.fq.common.constant.CommonConstant;
 
 import net.sf.json.JSONArray;
 

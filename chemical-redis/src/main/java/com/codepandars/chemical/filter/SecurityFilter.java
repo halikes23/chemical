@@ -14,9 +14,9 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.codepandars.chemical.common.constant.RetCode;
 import com.codepandars.chemical.properties.RedisProperties;
 import com.codepandars.chemical.util.IpUtils;
-import com.fq.common.constant.RetCode;
 
 /**
  * redis服务访问权限控制过滤器

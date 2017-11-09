@@ -6,10 +6,10 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
+import com.codepandars.chemical.common.constant.BaseConstant;
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.BaseCommand;
 import com.codepandars.chemical.redisinterface.command.ICommand;
-import com.fq.common.constant.BaseConstant;
-import com.fq.common.constant.CommonConstant;
 
 import net.sf.json.JSONObject;
 

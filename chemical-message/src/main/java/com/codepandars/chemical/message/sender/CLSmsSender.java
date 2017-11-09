@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.bcloud.msg.http.HttpSender;
-import com.fq.common.util.HttpHelper;
+import com.codepandars.chemical.common.util.HttpHelper;
 
 public class CLSmsSender implements IMessageSender<String>{
 

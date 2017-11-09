@@ -2,8 +2,8 @@ package com.codepandars.chemical.redisinterface.command.impl.hmget;
 
 import org.apache.commons.lang.StringUtils;
 
+import com.codepandars.chemical.common.constant.BaseConstant;
 import com.codepandars.chemical.redisinterface.command.BaseRequest;
-import com.fq.common.constant.BaseConstant;
 
 public class HMGetRequest extends BaseRequest{
 

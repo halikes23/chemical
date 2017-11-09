@@ -1,7 +1,7 @@
 package com.codepandars.chemical.redisinterface.command;
 
-import com.fq.common.constant.CommonConstant;
-import com.fq.common.constant.RetCode;
+import com.codepandars.chemical.common.constant.CommonConstant;
+import com.codepandars.chemical.common.constant.RetCode;
 
 import net.sf.ezmorph.bean.MorphDynaBean;
 import net.sf.json.JSONObject;

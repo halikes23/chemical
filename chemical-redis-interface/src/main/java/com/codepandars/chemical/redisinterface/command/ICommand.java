@@ -1,6 +1,6 @@
 package com.codepandars.chemical.redisinterface.command;
 
-import com.fq.exception.JnwtvException;
+import com.codepandars.chemical.common.exception.JnwtvException;
 
 
 

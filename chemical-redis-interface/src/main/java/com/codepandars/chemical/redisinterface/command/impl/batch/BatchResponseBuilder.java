@@ -7,10 +7,10 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.stereotype.Service;
 
+import com.codepandars.chemical.common.constant.CommonConstant;
 import com.codepandars.chemical.redisinterface.command.BaseResponse;
 import com.codepandars.chemical.redisinterface.command.IResponseBuilder;
 import com.codepandars.chemical.redisinterface.command.ResponseBuilderContext;
-import com.fq.common.constant.CommonConstant;
 
 import net.sf.ezmorph.bean.MorphDynaBean;
 import net.sf.json.JSONObject;

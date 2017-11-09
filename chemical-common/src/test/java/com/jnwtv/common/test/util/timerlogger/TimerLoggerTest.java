@@ -5,8 +5,8 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fq.util.timerlogger.TimerLogger;
-import com.fq.util.timerlogger.TimerLoggerFactory;
+import com.codepandars.chemical.common.util.timferlogger.TimerLogger;
+import com.codepandars.chemical.common.util.timferlogger.TimerLoggerFactory;
 
 public class TimerLoggerTest {
 
